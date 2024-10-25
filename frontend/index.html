@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="header">
+        <h1>XYZ INSTITUTION</h1>
+    </div>
+    
+    <div id="form-container">
+        <form id="date-form">
+            <label for="date">Select the date</label>
+            <input type="date" id="date">
+            <button type="submit" class="btn">Search</button>
+        </form>
+
+        <form id="summary-form">
+            <button type="submit" class="btn">Get Summary</button>
+        </form>
+    </div>
+    
+    <div id="table-container">
+        <!-- A table will be added dynamically -->
+    </div>
+
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.1/axios.min.js"></script>
+    
+</body>
+</html>
